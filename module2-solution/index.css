@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+  }
+* {
+    box-sizing: border-box;
+}
+
+/* --Start Responsive Setting-- */
+
+/* Desktop */
+@media (min-width:992px){
+    .col-lg-4 {
+        width: 33%;
+    }
+}
+/* Tablet */
+@media (min-width:768px) and (max-width:991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-6 + .col-md-6 + .col-md-6 {
+        width: 100%;
+    }
+}
+/* Mobile */
+@media (max-width:767px) {
+}
+
+.col-lg-4, .col-md-6 {
+    float: left;
+}
+
+/* --End Responsive Setting-- */
+
+/* --Start Blog Styling-- */
+.card {
+    margin: 10px;
+    border: 1px solid black;
+    position: relative;
+    padding: 20px 10px 10px;
+}
+.blog-one {
+    background-color: tomato;
+}
+.blog-one .blog-card {
+    background-color: orange;
+}
+.blog-two {
+    background-color: teal;
+}
+.blog-two .blog-card {
+    background-color: lightblue;
+}
+.blog-three {
+    background-color: palevioletred;
+}
+.blog-three .blog-card {
+    background-color: firebrick;
+    color: white;
+}
+.blog-card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;;
+    margin: -1px;
+    width: 80px;
+    height: 30px;
+    line-height: 1.5;
+}
+.center {
+    text-align: center
+}
+.row {
+    width: 100%;
+}
+
+/* --End Blog Styling-- */
